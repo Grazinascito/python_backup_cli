@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+backup_cli.egg-info/PKG-INFO
+backup_cli.egg-info/SOURCES.txt
+backup_cli.egg-info/dependency_links.txt
+backup_cli.egg-info/entry_points.txt
+backup_cli.egg-info/requires.txt
+backup_cli.egg-info/top_level.txt
+pub_backup_cli/__init__.py
+pub_backup_cli/cli.py

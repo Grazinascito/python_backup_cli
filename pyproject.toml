@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "backup-cli"
+version = "0.1.0"
+description = "Incremental backup CLI for S3-compatible object storage"
+requires-python = ">=3.9"
+dependencies = ["boto3<=1.35.99"]
+
+[project.scripts]
+backup = "pub_backup_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
